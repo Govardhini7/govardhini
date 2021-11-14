@@ -1,0 +1,63 @@
+*, body{margin:0;padding:0;font-family:OpenSans-Medium;}
+@font-face{font-family:OpenSans-Medium;src:url(../fonts/OpenSans-Medium.ttf) format('truetype');font-display:swap;}
+
+.music{padding: 130px 50px;background-color: #ada3bf63;}
+.purple{border-radius: 25px;padding: 50px;
+background: #ffffff;
+box-shadow: 15px 25px 29px #3f307238;margin-top: -50px;padding: 50px;margin-bottom: -50px;}
+.purple-box{padding: 0;border-radius: 25px;background: #ffffff;box-shadow: 15px 25px 29px #3f307238;}
+h3{color: #86748d !important;margin-top: 30px !important;font-weight: bolder !important;}
+p{color: #acacac;}
+h6 {    margin-bottom: 20px !important;
+font-size: 13px !important;
+color: #d3c1d9 !important;
+}
+h5 {
+font-size: 16px !important;
+color: #d3c1d9 !important;
+}
+.icon .fa{    color: #d3c1d9c7;
+font-size: 20px;
+background-color: #fff;
+border-radius: 50px;box-shadow:0px 0px 65px #6435354a;
+padding: 10px;}
+.purple-color, a,a:active i, a:hover i{color:#816be0 !important;}
+.play{padding: 60px 30px;}
+.stop:hover, .left:hover, .right:hover, .text-center a:hover{color:#fff !important;}
+.stop{padding:9px 10px !important;}
+.stop, .left, .right{margin:0px 20px;color:#fff!important;background-color: #806adc !important;box-shadow: 3px 12px 30px #c2bcd1;}
+.left, .right{font-size:14px !important;padding:4px 4px 4px 6px !important;}
+.left{padding:4px 6px 4px 6px !important;}
+.right{}
+.text-center{text-align:center;}
+.box{box-shadow: 15px 25px 29px #3f307238;}
+.mr15{    margin-right: 15px;}
+.seekbar{margin-top:70px}
+
+@media(max-width:767px){
+.purple{padding:25px;}
+.music{padding:90px 15px;}
+.text, .icon{text-align:center;}
+p{margin-top:12px !important}
+h3{margin-top:14px !important}
+h6{margin-bottom:25px !important}
+.icon .fa{font-size:14px;padding:8px}
+.left, .right{font-size:10px !important}
+.stop, .left, .right{margin:0px 5px}
+.stop {padding: 5px 6px !important;}
+}
+@media(min-width:768px) and (max-width:990px){
+h6{margin-bottom: 70px !important;}
+.music{    padding: 100px 5px;}
+}
+@media(max-width:990px){
+h3{margin-top: 60px;font-size: 26px;}
+h5{font-size: 18px !important;}
+p{font-size: 18px;}
+.play{margin-top: 45px;}
+}
+@media(min-width:990px) and (max-width:1199px){
+.icon .fa{font-size: 16px !important;}
+.stop, .left, .right {margin: 0px 12px;}
+.mr15{margin-right:0px}
+}
